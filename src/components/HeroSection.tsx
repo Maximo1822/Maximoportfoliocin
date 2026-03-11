@@ -72,17 +72,6 @@ export default function HeroSection() {
 
       {/* Main content */}
       <div className="relative z-10 text-center px-4">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          className="mb-6 flex items-center justify-center gap-3"
-        >
-          <div className="h-[1px] w-8 bg-white/30" />
-          <span className="font-outfit text-[10px] tracking-[0.5em] text-white/40 uppercase">Award-Winning Editor</span>
-          <div className="h-[1px] w-8 bg-white/30" />
-        </motion.div>
-
         <div className="overflow-hidden">
           <motion.h1
             className="font-syne text-[clamp(2.5rem,8vw,7rem)] font-800 leading-[0.9] tracking-tight text-bone"
@@ -90,17 +79,7 @@ export default function HeroSection() {
             animate={{ y: 0, rotateX: 0 }}
             transition={{ duration: 1.2, ease: [0.76, 0, 0.24, 1], delay: 0.3 }}
           >
-            CRAFTING VISUAL
-          </motion.h1>
-        </div>
-        <div className="overflow-hidden">
-          <motion.h1
-            className="font-syne text-[clamp(2.5rem,8vw,7rem)] font-800 leading-[0.9] tracking-tight text-bone"
-            initial={{ y: '120%', rotateX: -40 }}
-            animate={{ y: 0, rotateX: 0 }}
-            transition={{ duration: 1.2, ease: [0.76, 0, 0.24, 1], delay: 0.45 }}
-          >
-            <span className="text-white/30">NARRATIVES</span>
+            MAXIMO
           </motion.h1>
         </div>
 
@@ -127,7 +106,7 @@ export default function HeroSection() {
             onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <Play size={12} className="group-hover:scale-110 transition-transform" />
-            VIEW REEL
+            VIEW WORK
           </motion.button>
           <motion.button
             className="font-outfit text-xs tracking-[0.3em] text-white/40 hover:text-bone transition-colors duration-300 underline underline-offset-4 decoration-white/10 hover:decoration-white/40"
@@ -158,7 +137,7 @@ export default function HeroSection() {
       {/* Side decorative elements */}
       <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden lg:flex flex-col items-center gap-3">
         <div className="w-[1px] h-16 bg-gradient-to-b from-transparent to-white/10" />
-        <span className="font-outfit text-[8px] tracking-[0.3em] text-white/20 vertical-text" style={{ writingMode: 'vertical-rl' }}>REEL — 2025</span>
+        <span className="font-outfit text-[8px] tracking-[0.3em] text-white/20 vertical-text" style={{ writingMode: 'vertical-rl' }}>WORK — 2025</span>
         <div className="w-[1px] h-16 bg-gradient-to-b from-white/10 to-transparent" />
       </div>
     </section>

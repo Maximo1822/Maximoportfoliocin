@@ -120,18 +120,6 @@ function PortfolioCard({ project, layout, index }: { project: typeof projects[0]
           />
         </motion.div>
 
-        {/* Info */}
-        <motion.div
-          className="mt-3 flex items-start justify-between"
-          animate={{ opacity: isHovered ? 1 : 0.6 }}
-          transition={{ duration: 0.3 }}
-        >
-          <div>
-            <h3 className="font-syne text-sm font-700 tracking-wide text-bone">{project.title}</h3>
-            <p className="font-outfit text-[10px] tracking-[0.2em] text-white/30 mt-0.5">{project.category}</p>
-          </div>
-          <span className="font-outfit text-[10px] text-white/20">{project.year}</span>
-        </motion.div>
       </div>
     </motion.div>
   );

@@ -2,21 +2,15 @@ import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 
 const skills = [
-  { name: 'PREMIERE PRO', level: 95 },
-  { name: 'AFTER EFFECTS', level: 90 },
-  { name: 'DAVINCI RESOLVE', level: 88 },
-  { name: 'FINAL CUT PRO', level: 82 },
-  { name: 'CINEMA 4D', level: 70 },
-  { name: 'PHOTOSHOP', level: 85 },
+  { name: 'ALIGHT MOTION', level: 80 },
+  { name: 'CAPCUT', level: 90 },
+  { name: 'CANVA', level: 78 },
 ];
 
 const software = [
-  { name: 'Adobe Premiere Pro', category: 'NLE' },
-  { name: 'After Effects', category: 'MOTION' },
-  { name: 'DaVinci Resolve', category: 'COLOR' },
-  { name: 'Cinema 4D', category: '3D' },
-  { name: 'Audition', category: 'AUDIO' },
-  { name: 'Nuke', category: 'VFX' },
+  { name: 'Alight Motion', category: 'MOTION' },
+  { name: 'CapCut', category: 'EDITING' },
+  { name: 'Canva', category: 'DESIGN' },
 ];
 
 function AnimatedCounter({ target, isActive }: { target: number; isActive: boolean }) {

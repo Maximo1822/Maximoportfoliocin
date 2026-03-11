@@ -23,7 +23,7 @@ export default function Navbar() {
         whileHover={{ scale: 1.05 }}
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        REEL<span className="text-white/30">.</span>
+        WORK<span className="text-white/30">.</span>
       </motion.div>
 
       <div className="hidden md:flex items-center gap-8">
