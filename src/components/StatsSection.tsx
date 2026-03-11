@@ -2,10 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 
 const stats = [
-  { value: 150, suffix: '+', label: 'PROJECTS DELIVERED' },
-  { value: 12, suffix: '+', label: 'YEARS EXPERIENCE' },
-  { value: 40, suffix: '+', label: 'GLOBAL CLIENTS' },
-  { value: 8, suffix: '', label: 'INDUSTRY AWARDS' },
+  { value: 2, suffix: '+', label: 'YEARS EXPERIENCE' },
 ];
 
 function StatCounter({ stat, index }: { stat: typeof stats[0]; index: number }) {
@@ -50,7 +47,7 @@ export default function StatsSection() {
   return (
     <section className="py-16 md:py-24 px-6 md:px-12">
       <div className="max-w-5xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="flex justify-center">
           {stats.map((stat, i) => (
             <StatCounter key={stat.label} stat={stat} index={i} />
           ))}

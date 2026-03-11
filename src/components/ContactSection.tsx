@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Mail, MapPin, Send } from 'lucide-react';
+import { ArrowUpRight, Mail, Send } from 'lucide-react';
 
 export default function ContactSection() {
   const [isHoveredBtn, setIsHoveredBtn] = useState(false);
@@ -161,15 +161,7 @@ export default function ContactSection() {
                   <Mail size={14} className="text-white/30" />
                   <span className="font-outfit text-[9px] tracking-[0.4em] text-white/20 uppercase">Email</span>
                 </div>
-                <p className="font-syne text-lg font-600 text-white/60 group-hover:text-bone transition-colors duration-300">hello@reeleditor.com</p>
-              </div>
-
-              <div className="group cursor-default">
-                <div className="flex items-center gap-3 mb-2">
-                  <MapPin size={14} className="text-white/30" />
-                  <span className="font-outfit text-[9px] tracking-[0.4em] text-white/20 uppercase">Based In</span>
-                </div>
-                <p className="font-syne text-lg font-600 text-white/60 group-hover:text-bone transition-colors duration-300">Los Angeles, CA</p>
+                <p className="font-syne text-lg font-600 text-white/60 group-hover:text-bone transition-colors duration-300">bharswat.c.editor@gmail.com</p>
               </div>
             </div>
 
