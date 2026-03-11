@@ -89,8 +89,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
         >
-          Transforming raw footage into cinematic experiences through
-          precision editing, color grading, and visual storytelling.
+          Your Everyday Professional Editor
         </motion.p>
 
         <motion.div

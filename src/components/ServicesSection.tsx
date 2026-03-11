@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Film, Scissors } from 'lucide-react';
+import { Film, Scissors, Globe, Pen } from 'lucide-react';
 import { useMousePosition } from '../hooks/useMousePosition';
 
 const services = [
   { icon: Scissors, title: 'VIDEO EDITING', desc: 'Precision cutting, pacing, and narrative structure for films, commercials, and digital content.' },
   { icon: Film, title: 'MOTION GRAPHICS', desc: 'Dynamic titles, transitions, and visual effects that elevate production value.' },
+  { icon: Globe, title: 'WEB DEVELOPMENT', desc: 'Building fast, modern websites and web apps tailored to your brand and audience.' },
+  { icon: Pen, title: 'GRAPHIC DESIGNING', desc: 'Visual identity, social media assets, and creative graphics that make your brand stand out.' },
 ];
 
 function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {
@@ -117,7 +119,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {services.map((service, i) => (
             <ServiceCard key={service.title} service={service} index={i} />
           ))}
