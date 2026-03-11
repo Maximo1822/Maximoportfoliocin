@@ -37,7 +37,7 @@ export default function IntroSequence({ onComplete }: IntroSequenceProps) {
       scrambleText('VIDEO EDITOR', setTitleText, undefined, 1000);
     }, 2400);
     const t5 = setTimeout(() => {
-      scrambleText('PORTFOLIO  ·  2025', setSubtitleText, undefined, 800);
+      scrambleText('PORTFOLIO  ·  2026', setSubtitleText, undefined, 800);
     }, 3000);
     // Phase 4: Shake impact
     const t6 = setTimeout(() => { setPhase(4); triggerGlitch(); }, 3600);
