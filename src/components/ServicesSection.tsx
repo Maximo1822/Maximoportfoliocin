@@ -1,15 +1,11 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Film, Palette, Music, Scissors, Monitor, Sparkles } from 'lucide-react';
+import { Film, Scissors } from 'lucide-react';
 import { useMousePosition } from '../hooks/useMousePosition';
 
 const services = [
   { icon: Scissors, title: 'VIDEO EDITING', desc: 'Precision cutting, pacing, and narrative structure for films, commercials, and digital content.' },
-  { icon: Palette, title: 'COLOR GRADING', desc: 'Cinematic color science to establish mood, atmosphere, and visual identity.' },
   { icon: Film, title: 'MOTION GRAPHICS', desc: 'Dynamic titles, transitions, and visual effects that elevate production value.' },
-  { icon: Music, title: 'SOUND DESIGN', desc: 'Audio mixing, foley, and soundtrack integration for immersive experiences.' },
-  { icon: Monitor, title: 'VFX COMPOSITING', desc: 'Seamless visual effects integration and advanced compositing workflows.' },
-  { icon: Sparkles, title: 'CREATIVE DIRECTION', desc: 'End-to-end visual storytelling from concept development to final delivery.' },
 ];
 
 function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {
@@ -121,7 +117,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {services.map((service, i) => (
             <ServiceCard key={service.title} service={service} index={i} />
           ))}
