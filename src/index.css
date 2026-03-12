@@ -9,9 +9,9 @@
   --color-mist: #444444;
   --color-ghost: rgba(255, 255, 255, 0.06);
   --color-flicker: rgba(255, 255, 255, 0.12);
-  --font-bebas: 'Black Han Sans', sans-serif;
-  --font-syne: 'Black Han Sans', sans-serif;
-  --font-outfit: 'Outfit', sans-serif;
+  --font-bebas: 'Vermin Vibes', 'Black Han Sans', sans-serif;
+  --font-syne: 'Vermin Vibes', 'Black Han Sans', sans-serif;
+  --font-outfit: 'Vermin Vibes', 'Outfit', sans-serif;
 }
 
 html {
@@ -23,7 +23,7 @@ html {
 
 body {
   background: #000;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Vermin Vibes', 'Outfit', sans-serif;
   overflow-x: hidden;
 }
 
@@ -126,5 +126,5 @@ body {
 }
 
 .text-scramble {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Vermin Vibes', 'Black Han Sans', sans-serif;
 }
