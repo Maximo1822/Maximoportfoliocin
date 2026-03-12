@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Vermin Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.cdnfonts.com/s/16247/vermin_vibes.woff') format('woff');
+}
+
 @theme {
   --color-void: #000000;
   --color-bone: #ffffff;

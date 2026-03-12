@@ -8,11 +8,11 @@ export default function Footer() {
           className="font-bebas text-lg tracking-[0.2em] text-white/20"
           whileHover={{ color: 'rgba(255,255,255,0.6)' }}
         >
-          WORK<span className="text-white/10">.</span>
+          MAXIMO<span className="text-white/10">.</span>
         </motion.div>
 
         <p className="font-outfit text-[10px] tracking-[0.3em] text-white/15">
-          © 2025 — ALL RIGHTS RESERVED
+          © 2026 — ALL RIGHTS RESERVED
         </p>
 
         <motion.button
