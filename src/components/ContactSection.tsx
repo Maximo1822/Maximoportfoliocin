@@ -36,43 +36,6 @@ export default function ContactSection() {
       </div>
 
       <div className="relative max-w-6xl mx-auto">
-        {/* Header */}
-        <motion.div
-          className="flex items-center gap-4 mb-4"
-          initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-        >
-          <div className="h-[1px] w-12 bg-white/20" />
-          <span className="font-outfit text-[10px] tracking-[0.5em] text-white/30 uppercase">Get In Touch</span>
-        </motion.div>
-
-        {/* Big statement */}
-        <div className="mb-16">
-          <div className="overflow-hidden">
-            <motion.h2
-              className="font-bebas text-[clamp(2.5rem,7vw,5.5rem)] leading-[1.05] tracking-[0.03em] text-bone"
-              initial={{ y: '100%', filter: 'blur(8px)' }}
-              whileInView={{ y: 0, filter: 'blur(0px)' }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: [0.76, 0, 0.24, 1] }}
-            >
-              LET'S CREATE
-            </motion.h2>
-          </div>
-          <div className="overflow-hidden">
-            <motion.h2
-              className="font-bebas text-[clamp(2.5rem,7vw,5.5rem)] leading-[1.05] tracking-[0.03em] text-bone"
-              initial={{ y: '100%', filter: 'blur(8px)' }}
-              whileInView={{ y: 0, filter: 'blur(0px)' }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, delay: 0.1, ease: [0.76, 0, 0.24, 1] }}
-            >
-              SOMETHING <span className="text-white/30">IMPACTFUL.</span>
-            </motion.h2>
-          </div>
-        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Contact form */}
@@ -168,7 +131,7 @@ export default function ContactSection() {
             <div className="mt-12">
               <p className="font-outfit text-[9px] tracking-[0.4em] text-white/20 uppercase mb-4">Follow</p>
               <div className="flex gap-4">
-                {['VIMEO', 'INSTAGRAM', 'BEHANCE', 'LINKEDIN'].map((social, i) => (
+                {['DISCORD'].map((social, i) => (
                   <motion.a
                     key={social}
                     href="#"
