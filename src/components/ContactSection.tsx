@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="relative py-20 md:py-32 px-6 md:px-12 overflow-hidden">
+    <section id="contact" className="relative pt-6 pb-20 md:pt-8 md:pb-32 px-6 md:px-12 overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 pointer-events-none">
         <motion.div
