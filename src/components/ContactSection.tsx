@@ -31,6 +31,24 @@ export default function ContactSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
+          <div className="mb-8">
+            <p className="font-outfit text-[9px] tracking-[0.4em] text-white/20 uppercase mb-4">Email</p>
+            <motion.a
+              href="mailto:bharswat.c.editor@gmail.com"
+              className="flex items-center gap-2 font-outfit text-[10px] tracking-[0.2em] text-white/30 hover:text-bone transition-colors duration-300"
+              whileHover={{ y: -2 }}
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+              </svg>
+              bharswat.c.editor@gmail.com
+            </motion.a>
+          </div>
+
           <p className="font-outfit text-[9px] tracking-[0.4em] text-white/20 uppercase mb-4">Follow</p>
           <div className="flex gap-4">
             <motion.a
