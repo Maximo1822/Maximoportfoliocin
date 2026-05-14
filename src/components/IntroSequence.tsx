@@ -34,7 +34,7 @@ export default function IntroSequence({ onComplete }: IntroSequenceProps) {
     const t3 = setTimeout(() => { setPhase(3); triggerGlitch(); }, 2200);
     // Phase 3: Glitch + title scramble
     const t4 = setTimeout(() => {
-      scrambleText('VIDEO EDITOR', setTitleText, undefined, 1000);
+      scrambleText('FREELANCER', setTitleText, undefined, 1000);
     }, 2400);
     const t5 = setTimeout(() => {
       scrambleText('PORTFOLIO  ·  2026', setSubtitleText, undefined, 800);
