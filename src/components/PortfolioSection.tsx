@@ -122,7 +122,7 @@ export default function PortfolioSection() {
   const [activeTab, setActiveTab] = useState<'work' | 'servers'>('work');
 
   const tabs = [
-    { id: 'work' as const, label: 'SELECTED WORK' },
+    { id: 'work' as const, label: 'GRAPHIC DESIGNING' },
     { id: 'servers' as const, label: 'DISCORD SERVERS' },
   ];
 
