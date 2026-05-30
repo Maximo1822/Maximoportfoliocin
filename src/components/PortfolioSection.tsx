@@ -339,12 +339,12 @@ export default function PortfolioSection() {
                     href={selectedServer.invite}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-white text-black px-6 py-3 font-outfit text-[10px] tracking-[0.3em] hover:bg-white/80 transition-colors duration-300"
-                    whileHover={{ scale: 1.04 }}
+                    className="flex items-center gap-1.5 border border-white/30 px-4 py-2 font-outfit text-[9px] tracking-[0.25em] text-white/70 hover:text-bone hover:border-white/60 transition-colors duration-300"
+                    whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                   >
-                    <DiscordIcon size={13} />
-                    JOIN SERVER
+                    <DiscordIcon size={11} />
+                    JOIN
                   </motion.a>
                   <motion.button
                     className="p-3 border border-white/20 hover:bg-white hover:text-black transition-all duration-300"
