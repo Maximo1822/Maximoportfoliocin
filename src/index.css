@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Vermin Vibes';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://fonts.cdnfonts.com/s/16247/vermin_vibes.woff') format('woff');
-}
-
 @theme {
   --color-void: #000000;
   --color-bone: #ffffff;
@@ -16,9 +9,9 @@
   --color-mist: #444444;
   --color-ghost: rgba(255, 255, 255, 0.06);
   --color-flicker: rgba(255, 255, 255, 0.12);
-  --font-bebas: 'Vermin Vibes', 'Black Han Sans', sans-serif;
-  --font-syne: 'Vermin Vibes', 'Black Han Sans', sans-serif;
-  --font-outfit: 'Vermin Vibes', 'Outfit', sans-serif;
+  --font-bebas: 'Black Han Sans', sans-serif;
+  --font-syne: 'Black Han Sans', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
 }
 
 html {
@@ -30,7 +23,7 @@ html {
 
 body {
   background: #000;
-  font-family: 'Vermin Vibes', 'Outfit', sans-serif;
+  font-family: 'Outfit', sans-serif;
   overflow-x: hidden;
 }
 
