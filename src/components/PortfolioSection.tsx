@@ -11,6 +11,7 @@ const projects = [
   { id: 4, title: 'PORTRAIT', category: 'COMMERCIAL', image: '/images/portfolio-4.jpg', year: '2023', description: 'High-contrast character study for luxury fashion brand.' },
   { id: 5, title: 'VELOCITY', category: 'BRAND FILM', image: '/images/portfolio-5.jpg', year: '2024', description: 'Abstract motion study exploring speed and light.' },
   { id: 6, title: 'TIDAL', category: 'SHORT FILM', image: '/images/portfolio-6.jpg', year: '2023', description: 'Dramatic coastal cinematography capturing raw natural power.' },
+  { id: 7, title: 'ENDERMAN', category: 'GRAPHIC DESIGN', image: '/images/graphic-design-1.png', year: '2026', description: 'Custom Minecraft skin render with stylised purple glow aesthetic.' },
 ];
 
 const discordServers = [
@@ -24,6 +25,7 @@ const layouts = [
   { x: '65%', y: '40%', w: 'w-[200px] md:w-[280px]', z: 1, delay: 0.3 },
   { x: '8%', y: '65%', w: 'w-[230px] md:w-[310px]', z: 2, delay: 0.4 },
   { x: '50%', y: '70%', w: 'w-[270px] md:w-[360px]', z: 3, delay: 0.5 },
+  { x: '30%', y: '105%', w: 'w-[240px] md:w-[320px]', z: 2, delay: 0.6 },
 ];
 
 const DiscordIcon = ({ size = 14 }: { size?: number }) => (
@@ -185,7 +187,7 @@ export default function PortfolioSection() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.4 }}
           >
-            <div className="relative mx-auto max-w-6xl px-6" style={{ height: 'clamp(800px, 120vw, 1200px)' }}>
+            <div className="relative mx-auto max-w-6xl px-6" style={{ height: 'clamp(1000px, 150vw, 1500px)' }}>
               {projects.map((project, i) => (
                 <div key={project.id} onClick={() => setSelectedProject(project)}>
                   <PortfolioCard project={project} layout={layouts[i]} index={i} />
