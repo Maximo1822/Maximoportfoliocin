@@ -4,7 +4,7 @@ import { useInView } from '../hooks/useInView';
 import { X, ExternalLink } from 'lucide-react';
 
 const graphicDesigns = [
-  { id: 1, title: 'ENDERMAN', category: 'GRAPHIC DESIGN', image: '/images/graphic-design-1.png', year: '2026', description: 'Custom Minecraft skin render with stylised purple glow aesthetic.' },
+  { id: 1, title: 'ENDER PFP', category: 'GRAPHIC DESIGN', image: '/images/graphic-design-1.png', year: '2026', description: 'Custom Minecraft skin render with stylised purple glow aesthetic.' },
 ];
 
 const discordServers = [
